@@ -4,6 +4,9 @@
 - name: Installing yum utils
   ansible.builtin.shell: yum install -y yum-utils
 
+- name: Installing havac
+  ansible.builtin.shell: sudo pip3.11 install hvac
+
 - name: Configuring hashicorp repos
   ansible.builtin.shell: yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
 
