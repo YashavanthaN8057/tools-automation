@@ -6,7 +6,7 @@ variable "tools" {
       port_no = {
         vault = 8200
       }
-      policy_actions = ["ec2:DescribeAvailabilityZones"]
+    #   policy_actions = ["ec2:DescribeAvailabilityZones"]
     }
 #     prometheus = {
 #       name          = "prometheus"

@@ -5,5 +5,5 @@ module "tools" {
   port_no        = each.value["port_no"]
   zone_id        = var.zone_id
   name           = each.value["name"]
-  policy_actions = each.value["policy_actions"]
+#   policy_actions = each.value["policy_actions"]
 }
