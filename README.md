@@ -1,6 +1,7 @@
 # tools-automation
-initial root token: hvs.RyBHhMbWczwhYr17Cec2BTFM
-key1 (to unseal): wslJ28ljCGMBIuuTnshyltbVNm+o1Nu0xRB/jRLErx0=
+initial root token: 
+hvs.aMKx8oQTg0bM7A0l8ddpUmRP
+key1 (to unseal): Blwz/7mApYEWkSXNUapXGHXqeiRVsgmvI9s9Mtkdeko=
 
 
 This repo will have all the playbooks needed to install the tools
