@@ -16,26 +16,26 @@ variable "tools" {
       }
       policy_actions = ["ec2:DescribeInstances", "ec2:DescribeAvailabilityZones"]
     }
-#     grafana = {
-#       name          = "grafana"
-#       instance_type = "t3.micro"
-#       port_no = {
-#         grafana = 3000
-#       }
-#       policy_actions = ["ec2:DescribeInstances"]
-#     }
-#     elk = {
-#       name          = "elk"
-#       instance_type = "r7a.xlarge"
-#       port_no = {
-#         kibana   = 80
-#         logstash = 5044
-#       }
-#       policy_actions = ["ec2:DescribeInstances"]
-#     }
+    # grafana = {
+    #   name          = "grafana"
+    #   instance_type = "t3.micro"
+    #   port_no = {
+    #     grafana = 3000
+    #   }
+    #   policy_actions = ["ec2:DescribeInstances"]
+    # }
+    # elk = {
+    #   name          = "elk"
+    #   instance_type = "r7a.xlarge"
+    #   port_no = {
+    #     kibana   = 80
+    #     logstash = 5044
+    #   }
+    #   policy_actions = ["ec2:DescribeInstances"]
+    # }
   }
 }
 
 variable "zone_id" {
-  default = "Z049695610O5R6V4I48RH"
+  default = "Z08061862LBZAM174JIHO"
 }
