@@ -6,16 +6,16 @@ variable "tools" {
       port_no = {
         vault = 8200
       }
-    #   policy_actions = ["ec2:DescribeAvailabilityZones"]
+      policy_actions = ["ec2:DescribeAvailabilityZones"]
     }
-#     prometheus = {
-#       name          = "prometheus"
-#       instance_type = "t3.small"
-#       port_no = {
-#         prometheus = 9090
-#       }
-#       policy_actions = ["ec2:DescribeInstances", "ec2:DescribeAvailabilityZones"]
-#     }
+    prometheus = {
+      name          = "prometheus"
+      instance_type = "t3.small"
+      port_no = {
+        prometheus = 9090
+      }
+      policy_actions = ["ec2:DescribeInstances", "ec2:DescribeAvailabilityZones"]
+    }
 #     grafana = {
 #       name          = "grafana"
 #       instance_type = "t3.micro"
